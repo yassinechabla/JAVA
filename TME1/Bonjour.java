@@ -1,7 +1,7 @@
-package TME1;
+package JAVA.TME1;
 
 public class Bonjour {
      public static void main(String [] args){
-        System.out.println("Bonjour !");
+        System.out.println("Bonjour Yassine !");
     }
 }
