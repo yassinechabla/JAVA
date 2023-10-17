@@ -1,4 +1,4 @@
-package TME6;
+package JAVA.TME6;
 
 public class Guitare extends Instrument{
     private String type;

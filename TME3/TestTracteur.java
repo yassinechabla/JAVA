@@ -1,4 +1,4 @@
-package TME3;
+package JAVA.TME3;
 
 public class TestTracteur {
     public static void main(String[] args) {
@@ -12,9 +12,9 @@ public class TestTracteur {
         //il faut faire en sorte que la reference vers la cabine du tracteur t2 soit différente de la 
         //réfrence vers la cabine du tracteur t1
         Tracteur t2 = new Tracteur(new Cabine(3, "rouge"), r1, r2, r3, r4);
-        t2.peindre("rouge");
-        System.out.println(t1.toString());
-        System.out.println(t2.toString());
+        t2.peindre("bleue");
+        System.out.println(t1);
+        System.out.println(t2);
 
     }
 }

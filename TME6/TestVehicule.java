@@ -1,10 +1,10 @@
-package TME6;
+package JAVA.TME6;
 
 public class TestVehicule {
     public static void main(String[] args) {
         Velo velo = new Velo("MyVTT" , 17);
         //Afficher le vélo créé
-        System.out.println(velo.toString());
+        System.out.println(velo);
         //Faire rouler le vélo avec 10 km
         velo.rouler(10);
         //Créer un tableau de 3 véhicules    
@@ -16,9 +16,9 @@ public class TestVehicule {
         tab3Vehicules[2] = new Camion("Man", 200, 20);
         //Afficher les 3 véhicules
         System.out.println();
-        System.out.println(tab3Vehicules[0].toString());
-        System.out.println(tab3Vehicules[1].toString());
-        System.out.println(tab3Vehicules[2].toString());
+        System.out.println(tab3Vehicules[0]);
+        System.out.println(tab3Vehicules[1]);
+        System.out.println(tab3Vehicules[2]);
         
         //Faire rouler les 3 véhicules de 10km 
         System.out.println();

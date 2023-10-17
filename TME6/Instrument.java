@@ -1,4 +1,4 @@
-package TME6;
+package JAVA.TME6;
 
 public class Instrument {
     private int poids , prix;

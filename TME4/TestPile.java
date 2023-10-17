@@ -1,4 +1,4 @@
-package TME4;
+package JAVA.TME4;
 
 public class TestPile {
     public static void main(String[] args) {
@@ -9,25 +9,25 @@ public class TestPile {
 
         
         p1.empiler(a1);
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.empiler(a2);
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.empiler(a3);
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.depiler();
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.empiler(a3);
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.empiler(a2);
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.depiler();
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.depiler();
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.depiler();
-        System.out.println(p1.toString());
+        System.out.println(p1);
         p1.depiler();
-        System.out.println(p1.toString());
+        System.out.println(p1);
 
         
     }

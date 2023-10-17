@@ -1,4 +1,4 @@
-package TME8;
+package JAVA.TME8;
 
 public class Champignon implements Ramassable {
     private String nom ;

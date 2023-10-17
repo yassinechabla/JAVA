@@ -1,4 +1,4 @@
-package TME6;
+package JAVA.TME6;
 public class AMoteur extends Vehicule{
 
     private int capaciteReservoir , niveauEssence; 
@@ -19,7 +19,7 @@ public class AMoteur extends Vehicule{
     }
 
     public boolean enPanne(){
-        return this.niveauEssence == 0.;
+        return this.niveauEssence == 0;
     }
     
 }

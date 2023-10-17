@@ -1,4 +1,4 @@
-package TME1;
+package JAVA.TME1;
 
 public class Villageois {
     private String nom ; 

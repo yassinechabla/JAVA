@@ -1,4 +1,4 @@
-package TME5;
+package JAVA.TME5;
 
 public class Personne {
     private String nom; 

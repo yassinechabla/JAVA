@@ -1,4 +1,4 @@
-package TME5;
+package JAVA.TME5;
 
 public class TestCone {
     public static void main(String[] args) {
@@ -6,7 +6,5 @@ public class TestCone {
         Cone c1 = new Cone();
         Cone c2 =  new Cone(2.4, 8);
         System.out.println(Cone.getNbCones()); 
-        c1.toString();
-        c2.toString();
     }
 }

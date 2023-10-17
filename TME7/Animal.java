@@ -1,4 +1,4 @@
-package TME7;
+package JAVA.TME7;
 
 public abstract class Animal {
     private String nom; 

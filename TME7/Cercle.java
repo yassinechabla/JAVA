@@ -1,4 +1,4 @@
-package TME7;
+package JAVA.TME7;
 
 public class Cercle extends Ellipse {
     public Cercle(double rayon){

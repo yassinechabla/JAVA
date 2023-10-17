@@ -1,4 +1,4 @@
-package TME7;
+package JAVA.TME7;
 
 public class Ellipse  extends Figure2D{
     private double longueura , longueurb;

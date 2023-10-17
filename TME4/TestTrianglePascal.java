@@ -1,4 +1,4 @@
-package TME4;
+package JAVA.TME4;
 
 public class TestTrianglePascal {
     public static void main(String[] args) {
@@ -8,9 +8,9 @@ public class TestTrianglePascal {
         t1.remplirTriangle();
         t2.remplirTriangle();
         t3.remplirTriangle();
-        System.out.println(t1.toString());
-        System.out.println(t2.toString());
-        System.out.println(t3.toString());
+        System.out.println(t1);
+        System.out.println(t2);
+        System.out.println(t3);
         
     }
 }

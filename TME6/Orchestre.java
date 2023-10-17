@@ -1,4 +1,4 @@
-package TME6;
+package JAVA.TME6;
 
 public class Orchestre {
     private static int nbInstruments = 0;

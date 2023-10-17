@@ -1,4 +1,4 @@
-package TME4;
+package JAVA.TME4;
 
 import java.util.Arrays;
 

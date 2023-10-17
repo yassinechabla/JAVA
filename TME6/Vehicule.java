@@ -1,4 +1,4 @@
-package TME6;
+package JAVA.TME6;
 
 public class Vehicule {
     private static int compteur = 0;

@@ -1,4 +1,4 @@
-package TME2;
+package JAVA.TME2;
 
 public class TestCoureur {
     public static void main(String[] args) {
