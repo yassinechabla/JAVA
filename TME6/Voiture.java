@@ -12,7 +12,7 @@ public class Voiture extends AMoteur{
         }else if(super.enPanne()){
             System.out.println("La voiture " + this.id + " n'a plus d'essence !");
         }else{
-            this.distance+=km;
+            super.distance+=km;
             System.out.println("La voiture " + this.id + " transporte " + nbPers + " personnes sur " + km + "km" );
         }
     }
