@@ -1,5 +1,4 @@
 package JAVA.TME10;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
