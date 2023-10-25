@@ -1,7 +1,7 @@
 package JAVA.TME7;
 
 public abstract class Animal {
-    private String nom; 
+    protected String nom; 
     private int age ;
     public Animal(String nom, int age) {
         this.nom = nom;

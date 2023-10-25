@@ -8,12 +8,16 @@ public class Ellipse  extends Figure2D{
         this.longueurb = longueurb;
     }
     public double perimetre() {
-        return 2*Math.PI * Math.sqrt((this.longueura*this.longueura + this.longueurb*this.longueurb)/2);
+        return 2*Math.PI * Math.sqrt((longueura*longueura + longueurb*longueurb)/2);
     }
 
 
     public double surface() {
-        return Math.PI * this.longueura * this.longueurb; 
+        return Math.PI * longueura * longueurb; 
+    }
+    @Override
+    public String toString() {
+        return "Ellipse : longueur=" + longueura + ", largeur=" + longueurb + " surface=" + surface() + " périmètre=" + perimetre()  ;
     }
     
 }

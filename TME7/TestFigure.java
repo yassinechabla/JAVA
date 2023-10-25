@@ -7,6 +7,10 @@ public class TestFigure {
         figures[1] = new Carre(5);
         figures[2] = new Ellipse(2.5, 2.6);
         figures[3] = new Cercle(3.9);
-        System.out.println(figures[1].surface());
+    for (Figure figure : figures) {
+        if (figure instanceof Figure2D) {
+            System.out.println(figure.toString());
+        }
+    }
     }
 }

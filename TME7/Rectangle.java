@@ -10,12 +10,18 @@ public class Rectangle extends Figure2D{
 
 
     public double perimetre() {
-        return (this.longueur + this.largeur) * 2;
+        return (longueur + largeur) * 2;
     }
 
 
     public double surface() {
-        return this.longueur * this.largeur; 
+        return longueur * largeur; 
+    }
+
+
+    @Override
+    public String toString() {
+        return "Rectangle : longueur=" + longueur + ", largeur=" + largeur + " surface=" + surface() + " périmètre=" + perimetre()  ;
     }
     
 }

@@ -3,19 +3,17 @@ package JAVA.TME7;
 
 public class Menagerie {
     private Animal[] tab;
-    private int nbAnimal; 
-    public static int compteur =0;
+    private static int nbAnimal =0;
     public Menagerie(int maxTaille){
         tab = new Animal[maxTaille];
-        compteur++;
     }
     public void ajouter(Animal a){
         if(nbAnimal<tab.length){
             tab[nbAnimal] = a;
             nbAnimal++;
-            System.out.println(a.toString() + " ajouté à la ménagerie !, nombre total d'animaux : " + nbAnimal );
+            System.out.println(a.nom + " ajouté à la ménagerie !, nombre total d'animaux : " + nbAnimal );
         }else{
-            System.out.println("Ménagerie pleine" + nbAnimal);
+            System.out.println("Ménagerie pleine nombre maximaum est : " + nbAnimal + " animaux");
         }
     }
     public void midi(){
@@ -27,25 +25,40 @@ public class Menagerie {
     }
     public void vieillirTous(){
         for (Animal animal : tab) {
+            if(animal!=null)
             animal.vieillir();
         }
     }
         public String toString() {
             String s ="";
             for (Animal animal : tab) {
-                s+= animal.toString() + ", ";
+                if (animal!=null)
+                s+= animal.toString() + "\n";
             }
         return s;
     }
     public static void main(String[] args) {
-        Menagerie m = new Menagerie(3);
-        m.ajouter(new Vache(1));
-        m.ajouter(new Boa("Boa",1));
-        m.ajouter(new Boa("Sarah",20));
-        m.midi();
-        m.vieillirTous();
-        System.out.println(m.toString());
+        Menagerie m1 = new Menagerie(4);
+        Vache v1 = new Vache(2, "Aicha");
+        Vache v2 = new Vache("Aghilas");
+        Boa b1 = new Boa("Nesrine");
+        Boa b2 = new Boa(3, "Sarah");
+        System.out.println("---------------------------------------------------------------------------------------");
+        System.out.println("Ajout d'animaux");
+        System.out.println("---------------------------------------------------------------------------------------");
         
+        m1.ajouter(v1);
+        m1.ajouter(v2);
+        m1.ajouter(b1);
+        m1.ajouter(b2);
+        System.out.println("---------------------------------------------------------------------------------------");
+        System.out.println("Quand la ménagerie est pleine : ");
+        System.out.println("---------------------------------------------------------------------------------------");
+        m1.ajouter(b2);
+        System.out.println("---------------------------------------------------------------------------------------");
+        System.out.println("Affichage de tous les animaux de la ménagerie");
+        System.out.println("---------------------------------------------------------------------------------------");
+        System.out.println(m1);
         
     }
 
