@@ -1,4 +1,4 @@
-package JAVA.TME8;
+package TME8;
 
 public interface Ramassable {
     double getPoids();

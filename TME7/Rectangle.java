@@ -1,4 +1,4 @@
-package JAVA.TME7;
+package TME7;
 
 public class Rectangle extends Figure2D{
     private double longueur , largeur;

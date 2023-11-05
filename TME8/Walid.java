@@ -1,4 +1,4 @@
-package JAVA.TME8;
+package TME8;
 
 public class Walid extends Champignon implements Toxique{
     

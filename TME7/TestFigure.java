@@ -1,4 +1,4 @@
-package JAVA.TME7;
+package TME7;
 
 public class TestFigure {
     public static void main(String[] args) {

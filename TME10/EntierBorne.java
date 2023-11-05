@@ -1,4 +1,4 @@
-package JAVA.TME10;
+package TME10;
 
 public class EntierBorne {
     private int valeur ;

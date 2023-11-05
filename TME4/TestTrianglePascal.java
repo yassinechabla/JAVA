@@ -1,4 +1,4 @@
-package JAVA.TME4;
+package TME4;
 
 public class TestTrianglePascal {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JAVA.TME7;
+package TME7;
 public abstract class AnimalAPattes extends Animal{
     private int nbPattes; 
     public AnimalAPattes( int age ,String nom, int nbPattes) {

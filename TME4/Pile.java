@@ -1,4 +1,4 @@
-package JAVA.TME4;
+package TME4;
 
 public class Pile {
     private Assiette[] tab ; 

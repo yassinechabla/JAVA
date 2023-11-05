@@ -1,4 +1,4 @@
-package JAVA.TME8;
+package TME8;
 
 import java.util.ArrayList;
 

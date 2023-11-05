@@ -1,4 +1,4 @@
-package JAVA.TME8;
+package TME8;
 
 public class Arbre  {
     private String nom ;

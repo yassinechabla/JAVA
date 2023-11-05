@@ -1,4 +1,4 @@
-package JAVA.TME6;
+package TME6;
 public class TestOrchestre{
     public static void main(String[] args) {
         Piano piano = new Piano(300, 700, 88);

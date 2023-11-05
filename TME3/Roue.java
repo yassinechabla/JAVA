@@ -1,4 +1,4 @@
-package JAVA.TME3;
+package TME3;
 
 public class Roue {
     private int diametre ;

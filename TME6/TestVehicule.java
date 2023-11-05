@@ -1,4 +1,4 @@
-package JAVA.TME6;
+package TME6;
 
 public class TestVehicule {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JAVA.TME4;
+package TME4;
 
 public class TrianglePascal {
     private int[][] tab;

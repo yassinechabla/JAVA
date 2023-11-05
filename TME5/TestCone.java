@@ -1,4 +1,4 @@
-package JAVA.TME5;
+package TME5;
 
 public class TestCone {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JAVA.TME6;
+package TME6;
 
 public class Velo extends SansMoteur{
     private int nbVitesses ;

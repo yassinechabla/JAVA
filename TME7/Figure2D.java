@@ -1,4 +1,4 @@
-package JAVA.TME7;
+package TME7;
 
 
 public abstract class Figure2D extends Figure {

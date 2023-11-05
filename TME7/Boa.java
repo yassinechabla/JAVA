@@ -1,4 +1,4 @@
-package JAVA.TME7;
+package TME7;
 
 public class Boa extends AnimalSansPattes{
     public Boa (int age,String nom ){

@@ -1,4 +1,4 @@
-package JAVA.TME5;
+package TME5;
 
 public class Cone {
     private double r , h;

@@ -1,4 +1,4 @@
-package JAVA.TME7;
+package TME7;
 
 public class Vache extends AnimalAPattes {
     private double quantiteLait;

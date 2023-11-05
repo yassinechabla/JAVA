@@ -1,4 +1,4 @@
-package JAVA.TME5;
+package TME5;
 
 public class Projet {
     private Trio trio;
