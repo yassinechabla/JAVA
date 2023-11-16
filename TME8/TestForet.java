@@ -9,16 +9,14 @@ public class TestForet {
             foret.placer(new Champignon("Cèpe"));
             }
         }
-        Panier p =  new Panier(1000);
+        Panier p =  new Panier(15);
         p.add( new Walid("Pinaza"));
-       //foret.ramasser(p);
-       //foret.placer(new ChampignonToxique("Amanites"));
-       //foret.placer(new ChampignonToxique("Amanites"));
-       //System.out.println(p);
-       //System.out.println(p.compterToxique());
-
-       System.out.println(foret.toString());
+        System.out.println(foret);
        foret.ramasser(p);
+        //foret.placer(new ChampignonToxique("Amanites"));
+       //foret.placer(new ChampignonToxique("Amanites"));
+       System.out.println(p);
+       //System.out.println(p.compterToxique());
         //System.out.println();
         //System.out.println(foret);
         //System.out.println(foret.toString());

@@ -61,11 +61,10 @@ public class Foret {
             for (int j = 0; j < terrain[i].length; j++) {
                 if (terrain[i][j] instanceof Ramassable) {
                     Ramassable obj = (Ramassable) terrain[i][j];
-                    if ((p.getPoids() + obj.getPoids()) <= p.getPoidsMax()) {
                         System.out.println( terrain[i][j]+ "Ajouté");
                         p.add(obj);
                         terrain[i][j] = null; // supprime l'objet du terrain
-                    }
+               
                 }
             }
         }
