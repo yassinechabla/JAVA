@@ -1,33 +1,35 @@
-package TME10;
-
 import java.util.ArrayList;
 
 public class Etudiant {
-    public static ArrayList<Etudiant> listeEtudiants = new ArrayList<>();
-    private String nom; 
-    private int index =0;
-    private int[] notes; 
+    private static ArrayList<Etudiant> lEtudiants = new ArrayList<Etudiant>();
+    private int[] tabNotes;
+    private final int MAXNOTES = 5;
+    private int nbNotes = 0 ;
+    private String nom;
     public Etudiant(String nom){
         this.nom = nom;
-        notes = new int[5];
+        tabNotes = new int[MAXNOTES];
+        lEtudiants.add(this);
     }
-    public String toString(){
-        String s="Nom : \n";
-        s+=(nom);
-        s+="\n Notes : \n";
-        for (int i : notes) {
-            s+= " " + i;
-        }
-        return s;
-}
 
     public void entrerNote(int note) throws TabNotesPleinException{
-        if (notes.length == 5){
-            throw new TabNotesPleinException("Tableau plein");
-        }else{
-            notes[index] = note;
-            index++;
+            if (nbNotes<MAXNOTES) {
+                tabNotes[nbNotes++] = note;
+            }else{
+                throw new TabNotesPleinException("le tableau de notes de l'étudiant " + this.nom + " est plein");
+            }
+    }
+
+    public String toString() {
+        String s=nom + " ";
+        for (int i = 0; i < nbNotes; i++) {
+                s+= " " + tabNotes[i]; 
         }
+        return s;
+    }
+    public static String afficheListEtudiant(){
+       return "les " + lEtudiants.size() + " étudiants :\n" + lEtudiants;
+
     }
 
 }
